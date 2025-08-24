@@ -1,0 +1,1 @@
+export Storage ={localStorage.set item}

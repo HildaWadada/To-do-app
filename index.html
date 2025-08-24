@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Furniture Workshop</title>
+  <link rel="stylesheet" href="login.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <h2><i class='bx bx-cabinet'></i> Furniture Workshop</h2>
+    <form id="login-form">
+      <div class="input-box">
+        <i class='bx bx-user'></i>
+        <input type="text" id="login-username" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <i class='bx bx-lock'></i>
+        <input type="password" id="login-password" placeholder="Password" required>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
