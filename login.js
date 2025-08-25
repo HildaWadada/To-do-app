@@ -9,7 +9,7 @@ loginForm.addEventListener("submit", function (e) {
   const password = document.getElementById("login-password").value;
 
   // Simple check (replace with real authentication if needed)
-  if (username === "admin" && password === "1234") {
+  if (username === "" && password === "") {
     message.style.color = "green";
     message.textContent = "Login successful! Redirecting...";
 
