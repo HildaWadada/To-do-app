@@ -9,7 +9,7 @@ loginForm.addEventListener("submit", function (e) {
   const password = document.getElementById("login-password").value;
 
   // Simple check (replace with real authentication if needed)
-  if (username === "" && password === "") {
+    if (username !== ""){
     message.style.color = "green";
     message.textContent = "Login successful! Redirecting...";
 
@@ -18,7 +18,7 @@ loginForm.addEventListener("submit", function (e) {
     }, 1000);
   } else {
     message.style.color = "red";
-    message.textContent = "Invalid username or password.";
+    message.textContent = "Please enter a username";
   }
 });
 
